@@ -1,0 +1,52 @@
+body {
+	background-color: rgb(246, 221, 225);
+	text-align: center;
+}
+
+.tituloprincipal {
+	font-family:'Times New Roman', Times, serif;
+}
+
+.profesion{
+	color: rgb(134, 46, 97);
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.me{
+	padding: 10px;
+	margin: 30px;
+	background-color: rgb(245, 242, 244);
+
+}
+
+.foto{
+	border: 2px inset black;
+}
+
+.boton{
+	background-color: rgb(245, 242, 244);
+	color: rgb(134, 46, 97);
+	padding: 8px;
+	border: 1px inset black ;
+	text-decoration: none;
+	border-radius: 25px;
+}
+.bar{
+	display: flex;
+	gap: 100px;
+	text-align: center;
+}
+.barra {
+	display: flex;
+	text-decoration: none;
+	gap: 30px;
+	color: rgb(134, 46, 97);
+	text-align: center;
+	text-shadow: 2em;
+	
+}	
+
+.barra:hover{
+	background-color:rgb(245, 242, 244);
+	padding: 10px;
+}

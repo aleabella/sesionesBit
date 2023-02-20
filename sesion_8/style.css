@@ -1,0 +1,29 @@
+/*.contenedor{
+    display: flex;
+    border: 2 solid #000;
+    max-width: 800px;
+    margin: 0 auto;
+    flex-direction: column-reverse;
+}
+
+.item{
+    width: 100px;
+    color:rgb(195, 178, 155);
+    background-color:aquamarine;
+    margin: 20px;
+    text-align: center;
+}
+
+#boton{
+     width: 20px;
+}*/
+
+.contenedor{
+ 
+   grid-template-columns: auto auto auto;
+gap: 15px;
+padding: 3px;
+    
+}
+
+
