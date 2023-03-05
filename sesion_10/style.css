@@ -1,0 +1,25 @@
+* {
+	font-family: 'Shantell Sans', cursive;
+	background-color: rgb(192, 239, 223);
+}
+
+ul {
+	display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+	text-decoration: none;
+	
+	color:brown
+
+
+}
+
+li{
+	width: 100%;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: brown;
+}
