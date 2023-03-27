@@ -65,4 +65,4 @@ alert("la suma es: "+(suma));
 alert( "la resta es: "+(resta));
 alert( "la división es: " +(div));
 alert( "la multiplicación es. " +(mult));
-alert("la suma es: "+(suma)+" la resta es: "+(resta)+ " la división es: " +(div)+" la multiplicación es. " +(mult));
+alert("la suma es: "+(suma)+" la resta es: "+(resta)+ " la división es: " +(div)+"  la multiplicación es. " +(mult));
