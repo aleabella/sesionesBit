@@ -7,6 +7,7 @@ let Cliente = new Schema({
     pais: String,
     correo: String,
     fecha: String,
+
 });
 
 module.exports = mongoose.model("Cliente", Cliente);
