@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../cliente/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+              <li><a href="../cliente/index.html">Inicio</a></li>
+              <li><a href="../cliente/cliente.html">Cliente</a></li>
+              <li><a href="../cliente/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Formulario de Contacto</h1>
+        <form id="contacto">
+          <label for="nombre">Nombre del Cliente:</label>
+          <input type="text" id="nombre" name="nombre" required>
+          
+          <label for="estado">Estado:</label>
+          <select id="estado" name="estado">
+            <option value="cerrado">Cerrado</option>
+            <option value="interesado">Interesado</option>
+            <option value="no-interesado">No Interesado</option>
+          </select>
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="fecha">Fecha:</label>
+          <input type="date" id="fecha" name="fecha" required>
+          
+          <label for="tipo">Tipo de Contacto:</label>
+          <select id="tipo" name="tipo">
+            <option value="presencial">Presencial</option>
+            <option value="virtual">Virtual</option>
+            <option value="telefonica">Telefónica</option>
+            <option value="correo">Correo</option>
+          </select>
+          
+          <label for="descripcion">Descripción de la Reunión:</label>
+          <textarea id="descripcion" name="descripcion"></textarea>
+          
+          <button type="submit">Agregar</button>
+        </form>
+      </main>
+    <footer>
+        <p>Derechos Reservados © Alejandra Abella 2023</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <script src="./script_clientes.js"></script>
+</body>
+</html>
